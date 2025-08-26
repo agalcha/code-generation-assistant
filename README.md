@@ -21,37 +21,37 @@ No more scrolling through PDFs or manually wiring up boilerplate. Just ask, and 
 
 ## 🚀 Quickstart
 
-1. **Clone this repo:**
-git clone https://github.com/<your-username>/codegen-ai-agent.git
+1. **Clone this repo:**  
+git clone https://github.com/<your-username>/codegen-ai-agent.git  
 cd codegen-ai-agent
 
 2. **Set up your virtual environment:**
-python3 -m venv ai
-source ai/bin/activate  # macOS / Linux
+python3 -m venv ai  
+source ai/bin/activate  # macOS / Linux  
 ai\Scripts\activate     # Windows
 
-3. **Install the magic sauce:**
-pip install -r requirements.txt
-Add your secrets to .env:
+3. **Install the magic sauce:**  
+pip install -r requirements.txt  
+Add your secrets to .env:  
 OLLAMA_API_KEY=your_api_key_here
 
-4. **Run it:**
+4. **Run it:**  
 python3 main.py
 
-5. **Now you can talk to your AI Agent directly:**
-Enter a prompt (q to quit): 
+5. **Now you can talk to your AI Agent directly:**  
+Enter a prompt (q to quit):  
 ➡ read test.py and generate a new client script for the API
 
 ## 🗂 **Project Layout**
 CODE_GEN_AGENT/
--├─ data/           # Drop your PDFs or code files here
--├─ output/         # AI-generated code goes here
--├─ main.py         # The brain
--├─ prompts.py      # Custom prompts for the AI
--├─ code_reader.py  # Lets AI actually read your code
--└─ requirements.txt
+├─ data/           # Drop your PDFs or code files here  
+├─ output/         # AI-generated code goes here  
+├─ main.py         # The brain  
+├─ prompts.py      # Custom prompts for the AI  
+├─ code_reader.py  # Lets AI actually read your code  
+└─ requirements.txt
 
-## 🛠 **Built With**
-llama-index — for document + vector embeddings
-Ollama — local LLMs like mistral and codellama
+## 🛠 **Built With**  
+llama-index — for document + vector embeddings  
+Ollama — local LLMs like mistral and codellama  
 Pydantic — keeping JSON output squeaky clean
