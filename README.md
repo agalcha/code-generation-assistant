@@ -44,12 +44,12 @@ Enter a prompt (q to quit):
 
 ## 🗂 **Project Layout**
 CODE_GEN_AGENT/
-├─ data/           # Drop your PDFs or code files here
-├─ output/         # AI-generated code goes here
-├─ main.py         # The brain
-├─ prompts.py      # Custom prompts for the AI
-├─ code_reader.py  # Lets AI actually read your code
-└─ requirements.txt
+-├─ data/           # Drop your PDFs or code files here
+-├─ output/         # AI-generated code goes here
+-├─ main.py         # The brain
+-├─ prompts.py      # Custom prompts for the AI
+-├─ code_reader.py  # Lets AI actually read your code
+-└─ requirements.txt
 
 ## 🛠 **Built With**
 llama-index — for document + vector embeddings
