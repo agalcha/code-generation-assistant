@@ -32,13 +32,14 @@ ai\Scripts\activate     # Windows
 
 3. **Install the magic sauce:**  
 pip install -r requirements.txt  
-Add your secrets to .env:  
+
+4. **Add your api key to .env:**  
 OLLAMA_API_KEY=your_api_key_here
 
-4. **Run it:**  
+5. **Run it:**   
 python3 main.py
 
-5. **Now you can talk to your AI Agent directly:**  
+6. **Now you can talk to your AI Agent directly:**  
 Enter a prompt (q to quit):  
 ➡ read test.py and generate a new client script for the API
 
