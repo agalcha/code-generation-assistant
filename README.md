@@ -6,9 +6,9 @@ An AI buddy that reads your docs, understands your code, and even writes new cod
 
 ## ✨ What It Does
 
-- Reads your **API docs** (PDFs) like a champ  
+- Reads your **API docs** (PDFs) 
 - Peeks into your **code files** to understand what’s already there  
-- Embeds all that knowledge into a searchable vector DB (fancy way of saying: *it remembers stuff*)  
+- Embeds all that knowledge into a searchable vector DB (*it remembers stuff*)  
 - Takes natural language prompts like *“write me a Python script that calls the POST endpoint”*  
 - Gives clean JSON with:
   - `code` → The actual Python code  
